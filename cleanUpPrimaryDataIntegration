@@ -1,45 +1,34 @@
 Priyanshi:
-Look up Ledger Accounts
-Look up plant address
-
+Look up Ledger Accounts[sn_sap_data_int_look_up_ledger_accounts]
+Look up plant address[sn_sap_data_int_look_up_plant_address]
 Shreenag:
 Currency Code Staging [sn_sap_data_int_currency_stg]
 FX Exchange Rate Staging [sn_sap_data_int_fx_rate_stg]
-
 Akash:
-Look up Legal Entities ( sn_sap_data_int_look_up_legal_entity )
-
+Look up Legal Entities [sn_sap_data_int_look_up_legal_entity]
 Krishna:
-Lookup Purchase Group( sn_sap_data_int_lookup_purchase_group)
-
+Lookup Purchase Group[sn_sap_data_int_lookup_purchase_group)
 Midhat:
 Purchasing Organisation Staging Table (SAP ECC) [sn_sap_data_int_purchasing_organisation_staging_table_sap_ecc]
 Cost Center Staging Table (SAP ECC) [sn_sap_data_int_cost_center_staging_table_sap_ecc]
-
 Prama:
 Payment Terms Staging
 Vendor Master Staging
 
-Will delete the below tables:
-Gl Account List
-ERP Plant address mapping
-Imp tmpl sn Fin GL account
-Integration Service(not required)
-Integration Source(not required)
-System Class Name
-Ledger Account Excel Upload Stage
-
-
 	Component	Staging Table Name
-	Vendors	sn_slm_sap_int_supplier_stg
-	Materials By Plant	sn_psm_sap_int_product_stg
-	Legal Entities	sn_sap_data_int_le_stg
-	Services	sn_psm_sap_int_services_stg
-	Ledger Accounts	sn_sap_data_int_gl_stg
-	Purchase Organizations	sn_sap_data_int_purc_org_stg
-	Plant Address	sn_sap_data_int_plant_add_stg
-	Cost Centers	sn_sap_data_int_cc_stg
-	Currencies	sn_sap_data_int_currency_stg
-	FX Rates	sn_sap_data_int_fx_rate_stg
-	Purchase Group	sn_sap_data_int_purc_grp_stg
-	Payment Terms	sn_sap_data_int_pay_term_stg
+Vendor Master Staging[sn_sap_data_int_vendor_masters_staging] --> Vendors	sn_slm_sap_int_supplier_stg
+	
+Look up Legal Entities [sn_sap_data_int_look_up_legal_entity] --> Legal Entities	sn_sap_data_int_le_stg
+	
+Look up Ledger Accounts[sn_sap_data_int_look_up_ledger_accounts] -->Ledger Accounts	sn_sap_data_int_gl_stg
+Purchasing Organisation Staging Table (SAP ECC) [sn_sap_data_int_purchasing_organisation_staging_table_sap_ecc] --> Purchase Organizations	sn_sap_data_int_purc_org_stg
+Look up plant address[sn_sap_data_int_look_up_plant_address] --> Plant Address	sn_sap_data_int_plant_add_stg
+Cost Center Staging Table (SAP ECC) [sn_sap_data_int_cost_center_staging_table_sap_ecc] --> Cost Centers	sn_sap_data_int_cc_stg
+Currency Code Staging [sn_sap_data_int_currency_stg] --> Currencies	sn_sap_data_int_currency_stg
+FX Exchange Rate Staging [sn_sap_data_int_fx_rate_stg] -->FX Rates	sn_sap_data_int_fx_rate_stg
+Lookup Purchase Group[sn_sap_data_int_lookup_purchase_group] --> Purchase Group	sn_sap_data_int_purc_grp_stg
+Payment Terms Staging[sn_sap_data_int_payment_terms_staging] --> Payment Terms	sn_sap_data_int_pay_term_stg
+
+
+Materials By Plant	sn_psm_sap_int_product_stg (procurement)
+Services	sn_psm_sap_int_services_stg (procurement)
