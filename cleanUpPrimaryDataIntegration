@@ -1,0 +1,30 @@
+Priyanshi:
+Look up Ledger Accounts
+Look up plant address
+
+Shreenag:
+Currency Code Staging [sn_sap_data_int_currency_stg]
+FX Exchange Rate Staging [sn_sap_data_int_fx_rate_stg]
+
+Akash:
+Look up Legal Entities ( sn_sap_data_int_look_up_legal_entity )
+
+Krishna:
+Lookup Purchase Group( sn_sap_data_int_lookup_purchase_group)
+
+Midhat:
+Purchasing Organisation Staging Table (SAP ECC) [sn_sap_data_int_purchasing_organisation_staging_table_sap_ecc]
+Cost Center Staging Table (SAP ECC) [sn_sap_data_int_cost_center_staging_table_sap_ecc]
+
+Prama:
+Payment Terms Staging
+Vendor Master Staging
+
+Will delete the below tables:
+Gl Account List
+ERP Plant address mapping
+Imp tmpl sn Fin GL account
+Integration Service(not required)
+Integration Source(not required)
+System Class Name
+Ledger Account Excel Upload Stage
