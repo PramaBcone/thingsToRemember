@@ -28,3 +28,18 @@ Integration Service(not required)
 Integration Source(not required)
 System Class Name
 Ledger Account Excel Upload Stage
+
+
+	Component	Staging Table Name
+	Vendors	sn_slm_sap_int_supplier_stg
+	Materials By Plant	sn_psm_sap_int_product_stg
+	Legal Entities	sn_sap_data_int_le_stg
+	Services	sn_psm_sap_int_services_stg
+	Ledger Accounts	sn_sap_data_int_gl_stg
+	Purchase Organizations	sn_sap_data_int_purc_org_stg
+	Plant Address	sn_sap_data_int_plant_add_stg
+	Cost Centers	sn_sap_data_int_cc_stg
+	Currencies	sn_sap_data_int_currency_stg
+	FX Rates	sn_sap_data_int_fx_rate_stg
+	Purchase Group	sn_sap_data_int_purc_grp_stg
+	Payment Terms	sn_sap_data_int_pay_term_stg
